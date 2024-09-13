@@ -14,7 +14,7 @@ namespace test_team1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hello());
+            Application.Run(new Ui3());
         }
     }
 }

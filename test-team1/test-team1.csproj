@@ -72,6 +72,12 @@
     <Compile Include="Ui\Ui2.Designer.cs">
       <DependentUpon>Ui2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ui\Ui3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\Ui3.Designer.cs">
+      <DependentUpon>Ui3.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
