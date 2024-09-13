@@ -1,6 +1,6 @@
 ﻿namespace test_team1.Ui
 {
-    partial class Ui1
+    partial class StudentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.getAllStudents = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // getAllStudents
+            // 
+            this.getAllStudents.Location = new System.Drawing.Point(295, 64);
+            this.getAllStudents.Name = "getAllStudents";
+            this.getAllStudents.Size = new System.Drawing.Size(143, 40);
+            this.getAllStudents.TabIndex = 0;
+            this.getAllStudents.Text = "getAllStudent";
+            this.getAllStudents.UseVisualStyleBackColor = true;
+            this.getAllStudents.Click += new System.EventHandler(this.getAllStudents_Click);
+            // 
+            // StudentForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Ui1";
+            this.Controls.Add(this.getAllStudents);
+            this.Name = "StudentForm";
+            this.Text = "StudentForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button getAllStudents;
     }
 }

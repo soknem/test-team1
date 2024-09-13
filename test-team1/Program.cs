@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using test_team1.Dal;
 using test_team1.Ui;
 
 namespace test_team1
@@ -16,8 +17,9 @@ namespace test_team1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            Application.Run(new Form2());
+            DatabaseSetup.InsertSampleData();
+            Application.Run(new StudentForm());
+            //Application.Run(new Form2());
         }
     }
 }
