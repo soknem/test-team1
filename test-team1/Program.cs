@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using test_team1.Ui;
+
 
 namespace test_team1
 {
@@ -14,7 +14,8 @@ namespace test_team1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ui1());
+            Application.Run(new Form1());
         }
     }
 }
+
