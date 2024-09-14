@@ -22,6 +22,11 @@ namespace test_team1.Dal
                         Age = (int)reader["Age"],
                         Email = reader["Email"].ToString()
                     });
+
+
+
+
+
                 }
             }
             return students;
